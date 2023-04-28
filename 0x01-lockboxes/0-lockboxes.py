@@ -17,14 +17,14 @@ def canUnlockAll(boxes):
     check = [0]
     all_list = [i for i in range(len(boxes))]
 
-    for i in check:
-        for y in boxes[i]:
+    for x in check:
+        for y in boxes[x]:
             if y not in check and y in all_list:
                 if y >= len(boxes):
                     return False
                 check.append(y)
 
-    if len(check) == len(check):
+    if len(check) == len(boxes):
         return True
     else:
         return False

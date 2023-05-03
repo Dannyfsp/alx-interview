@@ -5,3 +5,5 @@ This is a series of technical interview given by ALX to help build knowledge and
 
 ### Projects/Tasks
 - Pascal's Triangle
+- Lockboxes
+- Minimum Operations

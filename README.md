@@ -7,3 +7,4 @@ This is a series of technical interview given by ALX to help build knowledge and
 - Pascal's Triangle
 - Lockboxes
 - Minimum Operations
+- Log Parsing

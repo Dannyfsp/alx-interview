@@ -8,3 +8,4 @@ This is a series of technical interview given by ALX to help build knowledge and
 - Lockboxes
 - Minimum Operations
 - Log Parsing
+- UTF-8 Validation

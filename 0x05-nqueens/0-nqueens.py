@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 '''
 A program that solves the N Queen problem
 '''
@@ -51,7 +51,7 @@ def isSafe(board, row, col, number):
     return True
 
 
-def soleNQUtil(board, col, number):
+def solveNQUtil(board, col, number):
     '''
     Auxiliar method to find the possibilities of answer
     Args:
@@ -90,3 +90,31 @@ def solve(number):
         return False
 
     return True
+
+def validate(args):
+    '''
+    validate to comfirm the input data to verify if the size to answer
+    is possible
+    Args:
+        args - sys.argv
+    '''
+    if (len(args) == 2):
+        # validate data
+        try:
+            number = int(args[1])
+        except Exception:
+            print("N must be a number")
+            exit(1)
+        if number < 4:
+            print("N must be at least 4")
+            exit(1)
+        return number
+    else:
+        print("Usage: nqueens N")
+        exit(1)
+
+
+if __name__ == "__main__":
+    '''Main method to execute the application'''
+    number = validate(sys.argv)
+    solve(number)

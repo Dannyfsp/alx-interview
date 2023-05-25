@@ -91,6 +91,7 @@ def solve(number):
 
     return True
 
+
 def validate(args):
     '''
     validate to comfirm the input data to verify if the size to answer

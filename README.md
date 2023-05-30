@@ -10,3 +10,4 @@ This is a series of technical interview given by ALX to help build knowledge and
 - Log Parsing
 - UTF-8 Validation
 - N Queen
+- Starwars api

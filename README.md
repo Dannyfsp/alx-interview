@@ -11,3 +11,4 @@ This is a series of technical interview given by ALX to help build knowledge and
 - UTF-8 Validation
 - N Queen
 - Starwars api
+- Rotate 2D matrix
